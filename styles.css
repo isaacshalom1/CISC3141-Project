@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+  color: #ee4c7c;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+p {
+  /* margin-bottom: 30px; */
+  color: #5d001e;
+  text-align: center;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #e3e2df;
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: purple;
+}
+.left-algin {
+  float: left;
+}
+
+.right-align {
+  float: right;
+}
+.circular-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+a.button {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: cursive;
+  font-weight: 300;
+  color: #e3e2df;
+  background-color: #9a1750;
+  text-align: center;
+  transition: all 0.2s;
+  margin-bottom: 50px;
+}
+a.button:hover {
+  background-color: #e3afbc;
+}
